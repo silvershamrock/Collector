@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F8EA87CA207FA61D0049C287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87C9207FA61D0049C287 /* AppDelegate.swift */; };
-		F8EA87CC207FA61D0049C287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87CB207FA61D0049C287 /* ViewController.swift */; };
 		F8EA87CF207FA61D0049C287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87CD207FA61D0049C287 /* Main.storyboard */; };
 		F8EA87D2207FA61D0049C287 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87D0207FA61D0049C287 /* Collector.xcdatamodeld */; };
 		F8EA87D4207FA61F0049C287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87D3207FA61F0049C287 /* Assets.xcassets */; };
 		F8EA87D7207FA61F0049C287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87D5207FA61F0049C287 /* LaunchScreen.storyboard */; };
+		F8EA87DF207FB25A0049C287 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87DE207FB25A0049C287 /* AddItemViewController.swift */; };
+		F8EA87E3207FC33B0049C287 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87E2207FC33B0049C287 /* ItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8EA87C6207FA61D0049C287 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EA87C9207FA61D0049C287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8EA87CB207FA61D0049C287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8EA87CE207FA61D0049C287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8EA87D1207FA61D0049C287 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		F8EA87D3207FA61F0049C287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8EA87D6207FA61F0049C287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8EA87D8207FA61F0049C287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EA87DE207FB25A0049C287 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		F8EA87E2207FC33B0049C287 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				F8EA87C9207FA61D0049C287 /* AppDelegate.swift */,
-				F8EA87CB207FA61D0049C287 /* ViewController.swift */,
+				F8EA87E2207FC33B0049C287 /* ItemsTableViewController.swift */,
+				F8EA87DE207FB25A0049C287 /* AddItemViewController.swift */,
 				F8EA87CD207FA61D0049C287 /* Main.storyboard */,
 				F8EA87D3207FA61F0049C287 /* Assets.xcassets */,
 				F8EA87D5207FA61F0049C287 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8EA87D2207FA61D0049C287 /* Collector.xcdatamodeld in Sources */,
-				F8EA87CC207FA61D0049C287 /* ViewController.swift in Sources */,
 				F8EA87CA207FA61D0049C287 /* AppDelegate.swift in Sources */,
+				F8EA87E3207FC33B0049C287 /* ItemsTableViewController.swift in Sources */,
+				F8EA87DF207FB25A0049C287 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
